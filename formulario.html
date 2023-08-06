@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+   <link rel="stylesheet" href="formulario.css">
+   <link rel="icon" type="image/x-icon" href="icono.jpg">
+   
+</head>
+<body>
+    <form action="">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;">Inscripcion al sorteo del libro</h3>
+        <div class="dato">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input id="apellido" type="text" name="apellido">
+        
+    </div>
+    <div class="dato"><label for="nac">Fecha de nacimiento</label>
+        <input id="nac" type="date" name="nac" id=""></div>
+    <div class="dato">
+        <label for="mail">Email</label>
+        <input id="mail" type="email" name="mail" id="">
+        <label for="tel">Telefono</label>
+        <input id="tel" type="number" name="tel" id="">
+
+        
+    </div>
+    <div class="dato">
+        <p>Selecione su sexo</p>
+        <input id="masc" type="radio" name="sexo" value="m" id="">
+        <label for="masc">Masculino</label>
+        <input id="fem" type="radio" name="sexo" value="f" id="">
+        <label for="fem">Femenino</label>
+        <input id="sg" type="radio" name="sexo" value="g" id="">
+        <label for="sg">Sin genero</label>
+    </div>
+    <div class="dato">
+        <p>Seleccione su pais</p>
+        <select name="pais" id="">
+            <option value="Argentina">Argentina</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Chile">Chile</option>
+        </select>
+    </div>
+<div class="dato">
+    <label for="ciudad">Ciudad</label>
+  <input id="ciudad" type="text" name="ciudad">
+<label for="cp">CP</label>
+<input id="cp" type="number" name="cp" id="">
+</div> 
+<div id="foto">
+<label for="foto">Foto DNI</label>
+<input type="file" name="foto" id="">
+</div>
+<div id="submit">
+    <button>Enviar</button>
+</div> 
+    </form>
+</body>
+</html>

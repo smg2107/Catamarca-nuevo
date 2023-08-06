@@ -1,0 +1,58 @@
+body{background-color:  rgb(70, 69, 69);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+h3{
+    background-color: white;
+    width: 500px;
+    text-align: center; 
+}
+
+p{font-weight: bold;font-style: italic; font-size: 18px;
+margin-top: 30px;}
+
+label{
+    font-weight: bold;
+}
+.dato{
+    margin: 15px;
+}
+form{
+    background-color: rgb(253, 253, 44);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    width: 600;
+    height: 400;
+    padding: 20px;
+   
+}
+#foto{
+    margin-left: 15px;
+}
+#submit{
+        margin: 10px;
+    text-align: center;
+}
+
+button:hover{
+    transform: scale(1.15);
+   background-color:  yellowgreen;
+   }
+
+   button{
+    width: 70px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+   }
+
+input[type="submit"]{
+    height: 35px;
+    width: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
